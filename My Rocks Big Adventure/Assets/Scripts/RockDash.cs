@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class RockDash : MonoBehaviour
 {
@@ -8,6 +9,7 @@ public class RockDash : MonoBehaviour
 Vector3 mousePosition;
 Vector3 direction;
 Rigidbody2D rb2d;
+public Text cdText;
 
 bool onCooldown = false;
 int dashTimer = 0;
@@ -32,11 +34,13 @@ dashTimer--;
 
 //Once the dash cooldown reaches 0 we set the cooldown boolean to false so that the player can dash again.
 void FixedUpdate(){
+    cdText.text = "Dash Cooldown: " + (dashTimer/50 + 1) + "s";
     if(dashTimer < 50 * seconds && dashTimer != 0){
     dashTimer--; //if the dash is on cooldown we take away from it every 50 times a second.
     }
     if(dashTimer == 0){
     onCooldown = false; //Dash cooldown is finished and boolean is reset so we can dash again.
+    cdText.text = "Dash Ready";
     }
 }
 }
