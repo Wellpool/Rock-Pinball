@@ -27,8 +27,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1105707862}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.000000011921, z: -2.2508423}
-  m_LocalScale: {x: 0.75663906, y: 0.68097514, z: 0.56268245}
+  m_LocalPosition: {x: 0.0006, y: 0.000000011921, z: -2.2508423}
+  m_LocalScale: {x: 0.75663906, y: 1.4981453, z: 0.56268245}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8532917094132821228}
@@ -61,7 +61,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 7
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -110,6 +110,7 @@ GameObject:
   - component: {fileID: 8532917094132821226}
   - component: {fileID: 8532917094132821225}
   - component: {fileID: 932269354}
+  - component: {fileID: 6836553853699883827}
   m_Layer: 0
   m_Name: Rock
   m_TagString: Player
@@ -125,7 +126,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8532917094132821224}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.0033447, y: 0.0066886, z: -5.9998}
+  m_LocalPosition: {x: 0.005, y: 0.0066886, z: -5.9998}
   m_LocalScale: {x: 5, y: 5, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -223,6 +224,21 @@ Rigidbody2D:
   m_CollisionDetection: 0
   m_Constraints: 0
 --- !u!114 &932269354
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8532917094132821224}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19d023ea4e79e6e45994dc9588a26bac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cdText: {fileID: 0}
+  seconds: 12
+  moveSpeed: 10
+--- !u!114 &6836553853699883827
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
