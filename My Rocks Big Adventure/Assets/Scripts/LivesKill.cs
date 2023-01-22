@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -7,7 +8,7 @@ using UnityEngine.Events;
 
 public class LivesKill : MonoBehaviour
 {
-private int Lives = 3;
+public static int Lives = 3;
 public Text loseText;
 public Text lifeText;
 public Rigidbody2D Player;
@@ -19,8 +20,13 @@ public UnityEvent respawnSound;
 //Setting the initial values of the texts.
 void Start(){
    loseText.text = "";
-   lifeText.text = "Lives:" + Lives;
+  //lifeText.text = "Lives:" + Lives;
    GetComponent<AudioSource>();
+}
+
+private void Update()
+{
+   lifeText.text = "Lives:" + Lives;
 }
 
 //Taking away from the life counter if the player dies and updating the text accordingly.

@@ -1522,6 +1522,38 @@ PrefabInstance:
       propertyPath: m_Name
       value: LeftPaddle
       objectReference: {fileID: 0}
+    - target: {fileID: 105295611877180123, guid: 7a4b82187788d4945b07f705df0293c3, type: 3}
+      propertyPath: PaddleSoundLeft.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 105295611877180123, guid: 7a4b82187788d4945b07f705df0293c3, type: 3}
+      propertyPath: PaddleSoundLeft.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 105295611877180123, guid: 7a4b82187788d4945b07f705df0293c3, type: 3}
+      propertyPath: PaddleSoundLeft.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1857292746}
+    - target: {fileID: 105295611877180123, guid: 7a4b82187788d4945b07f705df0293c3, type: 3}
+      propertyPath: PaddleSoundLeft.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 105295611877180123, guid: 7a4b82187788d4945b07f705df0293c3, type: 3}
+      propertyPath: PaddleSoundLeft.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: PlaySound
+      objectReference: {fileID: 0}
+    - target: {fileID: 105295611877180123, guid: 7a4b82187788d4945b07f705df0293c3, type: 3}
+      propertyPath: PaddleSoundLeft.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: AudioContainer, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 105295611877180123, guid: 7a4b82187788d4945b07f705df0293c3, type: 3}
+      propertyPath: PaddleSoundLeft.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 105295611877180123, guid: 7a4b82187788d4945b07f705df0293c3, type: 3}
+      propertyPath: PaddleSoundLeft.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7a4b82187788d4945b07f705df0293c3, type: 3}
 --- !u!114 &1328873461 stripped
@@ -2122,7 +2154,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.336
   m_Pitch: 1
   Loop: 0
   Mute: 0
