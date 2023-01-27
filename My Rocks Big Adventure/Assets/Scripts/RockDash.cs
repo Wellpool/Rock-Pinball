@@ -14,10 +14,12 @@ public Text cdText;
 
 bool onCooldown = false;
 int dashTimer = 0;
-public int seconds = 12; //We can set how many seconds the cooldown is using this variable.
+public static int seconds = 12; //We can set how many seconds the cooldown is using this variable.
 public float moveSpeed;
 
 public UnityEvent DashSound;
+
+public Pause menuPause;
 
 void Start()
     {
@@ -27,7 +29,7 @@ void Start()
 //If the mouse button is clicked and the dash isn't on cooldown we dash the rock in the direction of the mouse with a set speed.
 void Update()
     {
-        if (Input.GetMouseButton(0) && onCooldown == false)
+        if (Input.GetMouseButton(0) && onCooldown == false && Pause.GameIsPaused == false)
         {
         mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         direction = (mousePosition - transform.position).normalized;
@@ -54,4 +56,6 @@ void FixedUpdate()
             cdText.text = "Dash Ready";
         }
     }
+
+
 }
