@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class Shop : MonoBehaviour
 {
     public int lifePrice = 500;
-    public int currentScore;
+    public float currentScore;
     public int currentLives;
     public int dashCdPrice = 500;
     public int cdSeconds;
@@ -17,10 +17,6 @@ public class Shop : MonoBehaviour
     public LivesKill Lives;
     public RockDash seconds;
     
-    
-    
-    
-    
     // Start is called before the first frame update
     void Start()
     {
@@ -30,7 +26,7 @@ public class Shop : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        currentScore = Score.score;
+        currentScore = gameScore.score;
         currentLives = LivesKill.Lives;
         cdSeconds = RockDash.seconds;
 
@@ -39,7 +35,7 @@ public class Shop : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            Score.score += 5000;
+            gameScore.score += 5000;
         }
     }
 
@@ -47,7 +43,7 @@ public class Shop : MonoBehaviour
     {
         if (currentScore >= lifePrice)
         {
-            Score.score -= lifePrice;
+            gameScore.score -= lifePrice;
             LivesKill.Lives += 1;
             lifePrice += lifePrice;
         }
@@ -58,7 +54,7 @@ public class Shop : MonoBehaviour
 
         if (currentScore >= dashCdPrice)
         {
-            Score.score -= dashCdPrice;
+            gameScore.score -= dashCdPrice;
             RockDash.seconds--;
             dashCdPrice += dashCdPrice;
         }

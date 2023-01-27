@@ -39,7 +39,6 @@ private void Update()
          Time.timeScale = 0;
          loseText.text = "Game Over!";
          nameField.SetActive(true);
-         gameOver = true;
       }
       else{
          Lives--;
