@@ -13,6 +13,7 @@ public Text loseText;
 public Text lifeText;
 public Rigidbody2D Player;
 public GameObject Spawn;
+public GameObject nameField;
 
 public UnityEvent respawnSound;
 
@@ -22,6 +23,7 @@ void Start(){
    loseText.text = "";
   //lifeText.text = "Lives:" + Lives;
    GetComponent<AudioSource>();
+   nameField.SetActive(false);
 }
 
 private void Update()
@@ -36,6 +38,8 @@ private void Update()
       if(Lives == 1){
          Time.timeScale = 0;
          loseText.text = "Game Over!";
+         nameField.SetActive(true);
+         gameOver = true;
       }
       else{
          Lives--;
