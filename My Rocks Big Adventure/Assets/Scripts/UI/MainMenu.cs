@@ -12,4 +12,12 @@ public class MainMenu : MonoBehaviour
     public void Quit(){
         Application.Quit();
     }
+
+    public void Scoreboard(){
+        SceneManager.LoadScene("Scoreboard");
+    }
+
+    public void Menu(){
+        SceneManager.LoadScene("UIStartScreen");
+    }
 }

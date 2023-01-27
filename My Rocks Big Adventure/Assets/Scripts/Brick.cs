@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Bumper : MonoBehaviour
+public class Brick : MonoBehaviour
 {
     public int addPoint = 10;
     public Score Score;
@@ -14,6 +14,7 @@ public class Bumper : MonoBehaviour
         if (collision.gameObject.CompareTag("Player"))
         {
             Score.score += addPoint;
+            Destroy(gameObject);
         }
     }
 }

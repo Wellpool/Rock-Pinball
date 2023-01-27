@@ -7,11 +7,13 @@ using UnityEngine.Events;
 
 public class LivesKill : MonoBehaviour
 {
-private int Lives = 3;
+private int Lives = 1;
+public bool gameOver = false;
 public Text loseText;
 public Text lifeText;
 public Rigidbody2D Player;
 public GameObject Spawn;
+public GameObject nameField;
 
 public UnityEvent respawnSound;
 
@@ -21,6 +23,7 @@ void Start(){
    loseText.text = "";
    lifeText.text = "Lives:" + Lives;
    GetComponent<AudioSource>();
+   nameField.SetActive(false);
 }
 
 //Taking away from the life counter if the player dies and updating the text accordingly.
@@ -30,6 +33,8 @@ void Start(){
       if(Lives == 1){
          Time.timeScale = 0;
          loseText.text = "Game Over!";
+         nameField.SetActive(true);
+         gameOver = true;
       }
       else{
          Lives--;

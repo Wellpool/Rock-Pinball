@@ -110,7 +110,6 @@ GameObject:
   - component: {fileID: 8532917094132821226}
   - component: {fileID: 8532917094132821225}
   - component: {fileID: 932269354}
-  - component: {fileID: 6836553853699883827}
   - component: {fileID: 2254250271450723420}
   m_Layer: 0
   m_Name: Rock
@@ -254,24 +253,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &6836553853699883827
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8532917094132821224}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 19d023ea4e79e6e45994dc9588a26bac, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cdText: {fileID: 0}
-  seconds: 12
-  moveSpeed: 10
-  DashSound:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!82 &2254250271450723420
 AudioSource:
   m_ObjectHideFlags: 0

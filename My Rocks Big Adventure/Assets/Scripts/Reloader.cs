@@ -5,17 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class Reloader : MonoBehaviour
 {
-    void Update()
+    public void Restart()
     {
-        if (Input.GetKey("r")) 
-        {
-            Restart();
-        }
-    }
- 
-    void Restart()
-    {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        SceneManager.LoadScene("UIStartScreen");
     }
 }
  
