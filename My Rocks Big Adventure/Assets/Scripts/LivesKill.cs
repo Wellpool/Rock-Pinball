@@ -7,7 +7,7 @@ using UnityEngine.Events;
 
 public class LivesKill : MonoBehaviour
 {
-private int Lives = 1;
+public static int Lives = 3;
 public bool gameOver = false;
 public Text loseText;
 public Text lifeText;

@@ -15,7 +15,7 @@ public class Shop : MonoBehaviour
 
     public Score gameScore;
     public LivesKill Lives;
-    public RockDash seconds;
+    public RockDash rockDash;
     
     // Start is called before the first frame update
     void Start()
@@ -28,7 +28,7 @@ public class Shop : MonoBehaviour
     {
         currentScore = gameScore.score;
         currentLives = LivesKill.Lives;
-        cdSeconds = RockDash.seconds;
+        cdSeconds = rockDash.seconds;
 
        // if (cdSeconds == maxCdTimer)
           //  maxedCdTimer = true;
@@ -55,7 +55,7 @@ public class Shop : MonoBehaviour
         if (currentScore >= dashCdPrice)
         {
             gameScore.score -= dashCdPrice;
-            RockDash.seconds--;
+            rockDash.seconds--;
             dashCdPrice += dashCdPrice;
         }
         else
