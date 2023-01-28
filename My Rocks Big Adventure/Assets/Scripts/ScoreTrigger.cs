@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Bumper : MonoBehaviour
+public class ScoreTrigger : MonoBehaviour
 {
     public int addPoint = 10;
     public Score score;
@@ -12,10 +12,10 @@ public class Bumper : MonoBehaviour
     }
     
     //Get Rock Collision
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void OnTriggerEnter2D(Collider2D collider)
     {
         //If Rock collides Adds "x" to score
-        if (collision.gameObject.CompareTag("Player"))
+        if (collider.gameObject.CompareTag("Player"))
         {
             score.score += addPoint;
         }

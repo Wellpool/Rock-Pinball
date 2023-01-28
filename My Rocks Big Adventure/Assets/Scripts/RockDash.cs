@@ -10,6 +10,7 @@ public class RockDash : MonoBehaviour
 Vector3 mousePosition;
 Vector3 direction;
 Rigidbody2D rb2d;
+public Camera cam;
 public Text cdText;
 
 bool onCooldown = false;
@@ -22,6 +23,7 @@ public UnityEvent DashSound;
 void Start()
     {
         rb2d = GetComponent<Rigidbody2D>(); //Gets the Rock's Rigid Body.
+        cam = GameObject.Find("MainCamera").GetComponent<Camera>();
     }
 
 //If the mouse button is clicked and the dash isn't on cooldown we dash the rock in the direction of the mouse with a set speed.
@@ -29,7 +31,7 @@ void Update()
     {
         if (Input.GetMouseButton(0) && onCooldown == false)
         {
-        mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        mousePosition = cam.ScreenToWorldPoint(Input.mousePosition);
         direction = (mousePosition - transform.position).normalized;
         rb2d.velocity = new Vector2(direction.x * moveSpeed, direction.y * moveSpeed);
         onCooldown = true; //Once the dash is used it is set on cooldown.
