@@ -7,14 +7,16 @@ TagManager:
   - Bumper
   - Boss
   - Bullet
+  - Brick
+  - Environment
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Brick
   - Water
   - UI
-  - 
+  - Bullet
   - 
   - 
   - 

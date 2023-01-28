@@ -10,7 +10,7 @@ public class Score : MonoBehaviour
 {
     public Text scoreText;
     public Text nameText;
-    public float score = 0;
+    public float score = 0f;
     public string name;
     public ScoreManager scoreManager;
     
