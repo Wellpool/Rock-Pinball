@@ -28,7 +28,7 @@ public class CameraLock : MonoBehaviour
        cameraRatio = (xMax + camOrthsize) / 3f; 
     } 
     
-    //Fix the camera positioning if it is going out of
+    //Fix the camera positioning if it is going out of the map.
     void FixedUpdate() 
     { 
         camY = Mathf.Clamp(followTransform.position.y, yMin + camOrthsize, yMax - camOrthsize);
