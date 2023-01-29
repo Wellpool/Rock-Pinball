@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -21,9 +22,14 @@ public UnityEvent respawnSound;
 //Setting the initial values of the texts.
 void Start(){
    loseText.text = "";
-   lifeText.text = "Lives:" + Lives;
+   //lifeText.text = "Lives:" + Lives;
    GetComponent<AudioSource>();
    nameField.SetActive(false);
+}
+
+private void Update()
+{
+   lifeText.text = "Lives:" + Lives;
 }
 
 //Taking away from the life counter if the player dies and updating the text accordingly.

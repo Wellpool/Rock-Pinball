@@ -54,13 +54,12 @@ public class Shop : MonoBehaviour
 
         if (currentScore >= dashCdPrice)
         {
-            gameScore.score -= dashCdPrice;
-            rockDash.seconds--;
-            dashCdPrice += dashCdPrice;
-        }
-        else
-        {
-            Debug.Log("i dont have enough score or Maxed out CD");
+            if (cdSeconds >= maxCdTimer)
+            {
+                gameScore.score -= dashCdPrice;
+                rockDash.seconds--;
+                dashCdPrice += dashCdPrice;
+            }
         }
     }
 }

@@ -20,6 +20,8 @@ public float moveSpeed;
 
 public UnityEvent DashSound;
 
+public Pause gamePaused;
+
 void Start()
     {
         rb2d = GetComponent<Rigidbody2D>(); //Gets the Rock's Rigid Body.
@@ -31,13 +33,16 @@ void Update()
     {
         if (Input.GetMouseButton(0) && onCooldown == false)
         {
-        mousePosition = cam.ScreenToWorldPoint(Input.mousePosition);
-        direction = (mousePosition - transform.position).normalized;
-        rb2d.velocity = new Vector2(direction.x * moveSpeed, direction.y * moveSpeed);
-        onCooldown = true; //Once the dash is used it is set on cooldown.
-        dashTimer = 50 * seconds; //We start a timer to determine it's cooldown.
-        dashTimer--;
-        DashSound.Invoke();
+            if (Pause.GameIsPaused == false)
+            {
+                mousePosition = cam.ScreenToWorldPoint(Input.mousePosition);
+                direction = (mousePosition - transform.position).normalized;
+                rb2d.velocity = new Vector2(direction.x * moveSpeed, direction.y * moveSpeed);
+                onCooldown = true; //Once the dash is used it is set on cooldown.
+                dashTimer = 50 * seconds; //We start a timer to determine it's cooldown.
+                dashTimer--;
+                DashSound.Invoke();
+            }
         }
     }
 
