@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8900733644378987072}
   - component: {fileID: 4390712239427903517}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Collider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -69,7 +69,7 @@ GameObject:
   - component: {fileID: 7747032855085690061}
   - component: {fileID: 7747032855085690062}
   - component: {fileID: 7747032855085690064}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: RPaddle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -84,8 +84,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7747032855085690065}
   m_LocalRotation: {x: 0, y: -0, z: 0.03164312, w: 0.9994993}
-  m_LocalPosition: {x: 3.03, y: 0.08, z: 0}
-  m_LocalScale: {x: 1.0682377, y: 0.6476217, z: 0.14391595}
+  m_LocalPosition: {x: 2.87, y: 0.07, z: -0.1025}
+  m_LocalScale: {x: 1.2571021, y: 0.7431825, z: 0.1693603}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 8900733644378987072}
@@ -179,7 +179,7 @@ GameObject:
   - component: {fileID: 7747032855192023194}
   - component: {fileID: 7747032855192023195}
   - component: {fileID: 5399179461456879664}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: RightPaddle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -290,7 +290,7 @@ HingeJoint2D:
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: -0.00000001384252, y: 0.000000010446651}
-  m_ConnectedAnchor: {x: -2.8373585, y: 0.28756383}
+  m_ConnectedAnchor: {x: -2.2835524, y: 0.24509922}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: -1000

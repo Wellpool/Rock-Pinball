@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 105295611877180116}
   - component: {fileID: 105295611877180123}
   - component: {fileID: 8712181075533787087}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: LeftPaddle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -125,7 +125,7 @@ HingeJoint2D:
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: -2.7948215, y: -0.60821444}
+  m_ConnectedAnchor: {x: -2.1796849, y: 0.25619325}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 1000
@@ -260,7 +260,7 @@ GameObject:
   - component: {fileID: 105295613250097585}
   - component: {fileID: 105295613250097584}
   - component: {fileID: 105295613250097590}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: LPaddle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -275,8 +275,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 105295613250097588}
   m_LocalRotation: {x: -0, y: -0, z: 0.026320945, w: 0.9996535}
-  m_LocalPosition: {x: 3.082, y: 0.26, z: 0}
-  m_LocalScale: {x: 1.1008085, y: 0.6022106, z: 0.10370783}
+  m_LocalPosition: {x: 3.037, y: 0.02, z: 0.046675}
+  m_LocalScale: {x: 1.392743, y: 0.7619168, z: 0.13121115}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1248364316754659791}
@@ -366,7 +366,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1248364316754659791}
   - component: {fileID: 558288998719937937}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Collider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
