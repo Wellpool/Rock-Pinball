@@ -41,7 +41,7 @@ public class BossScript : MonoBehaviour
         ShootTimer();
         }
         if(health == 0){
-            score.score =+ 300;
+            score.score =+ 3500;
             Destroy(gameObject);
             bossText.text = "";
         }

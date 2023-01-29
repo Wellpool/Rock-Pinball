@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Brick : MonoBehaviour
 {
-    public int addPoint = 10;
+    public int addPoint = 250;
     public Score score;
 
     void Awake(){

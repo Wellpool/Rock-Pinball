@@ -5,7 +5,7 @@ using UnityEngine.Events;
 
 public class Bumper : MonoBehaviour
 {
-    public int addPoint = 10;
+    public int addPoint = 250;
     public Score score;
 
     public UnityEvent bumperSound;

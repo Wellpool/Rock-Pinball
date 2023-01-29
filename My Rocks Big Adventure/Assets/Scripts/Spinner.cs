@@ -5,7 +5,7 @@ using UnityEngine;
 public class Spinner : MonoBehaviour
 {
     private Rigidbody2D rb;
-    public int addPoint = 10;
+    public int addPoint = 300;
     public Score score;
     
     //Get the objects.

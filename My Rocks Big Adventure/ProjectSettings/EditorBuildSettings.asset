@@ -12,12 +12,12 @@ EditorBuildSettings:
     path: Assets/Scenes/UIStartScreen.unity
     guid: 975dded6286e1bc428f81887ef2d9f99
   - enabled: 1
-    path: Assets/Scenes/Scoreboard.unity
-    guid: 2307252391789f647bafc8a5386fb327
-  - enabled: 1
-    path: Assets/Scenes/Test Peter.unity
-    guid: 9b37790e806ce7a45ad371aca6ad7152
-  - enabled: 1
     path: Assets/Scenes/Final Scene.unity
     guid: dba1cf9a656d23848938e91621083cae
+  - enabled: 0
+    path: Assets/Scenes/Scoreboard.unity
+    guid: 2307252391789f647bafc8a5386fb327
+  - enabled: 0
+    path: Assets/Scenes/Test Peter.unity
+    guid: 9b37790e806ce7a45ad371aca6ad7152
   m_configObjects: {}

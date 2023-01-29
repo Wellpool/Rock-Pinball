@@ -25,7 +25,7 @@ public class CameraLock : MonoBehaviour
        yMax = mapBounds.bounds.max.y;
        mainCam = GetComponent<Camera>();
        camOrthsize = mainCam.orthographicSize;
-       cameraRatio = (xMax + camOrthsize) / 3f; 
+       cameraRatio = (xMax + camOrthsize) / 2.5f; 
     } 
     
     //Fix the camera positioning if it is going out of the map.

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ScoreTrigger : MonoBehaviour
 {
-    public int addPoint = 10;
+    public int addPoint = 300;
     public Score score;
 
     void Awake(){

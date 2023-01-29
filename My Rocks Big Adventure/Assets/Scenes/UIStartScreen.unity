@@ -133,7 +133,7 @@ GameObject:
   m_Component:
   - component: {fileID: 25158651}
   - component: {fileID: 25158652}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Paper (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -217,7 +217,7 @@ GameObject:
   m_Component:
   - component: {fileID: 44029963}
   - component: {fileID: 44029964}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Eye
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -301,7 +301,7 @@ GameObject:
   m_Component:
   - component: {fileID: 55928180}
   - component: {fileID: 55928179}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Rock (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -368,7 +368,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 55928178}
   m_LocalRotation: {x: -0, y: -0, z: 0.00040556933, w: 0.99999994}
-  m_LocalPosition: {x: 1327, y: 44, z: -9.347414}
+  m_LocalPosition: {x: 1154, y: 44, z: -70}
   m_LocalScale: {x: 42.55296, y: 42.55296, z: 42.55296}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -385,7 +385,7 @@ GameObject:
   m_Component:
   - component: {fileID: 170837552}
   - component: {fileID: 170837553}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Eye
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -469,7 +469,7 @@ GameObject:
   m_Component:
   - component: {fileID: 370296862}
   - component: {fileID: 370296861}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Rock (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -536,7 +536,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 370296860}
   m_LocalRotation: {x: -0, y: -0, z: 0.00040556933, w: 0.99999994}
-  m_LocalPosition: {x: 1369, y: 118, z: -9.347414}
+  m_LocalPosition: {x: 1196, y: 118, z: -70}
   m_LocalScale: {x: 42.55296, y: 42.55296, z: 42.55296}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -872,7 +872,7 @@ GameObject:
   m_Component:
   - component: {fileID: 643479589}
   - component: {fileID: 643479590}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Eye2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -956,7 +956,7 @@ GameObject:
   m_Component:
   - component: {fileID: 760812874}
   - component: {fileID: 760812875}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Eye2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1018,7 +1018,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: -57857938, guid: bd34462528f37264fb426023bbd54e8d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1200,7 +1200,7 @@ GameObject:
   m_Component:
   - component: {fileID: 962231887}
   - component: {fileID: 962231886}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Rock (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1267,7 +1267,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 962231885}
   m_LocalRotation: {x: -0, y: -0, z: 0.47521597, w: 0.8798692}
-  m_LocalPosition: {x: 373, y: 685, z: -9.347414}
+  m_LocalPosition: {x: 338, y: 700, z: -70}
   m_LocalScale: {x: 42.55296, y: 42.55296, z: 42.55296}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1286,7 +1286,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1080253238}
   - component: {fileID: 1080253239}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Eye2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1370,7 +1370,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1144367369}
   - component: {fileID: 1144367368}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Rock (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1437,7 +1437,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1144367367}
   m_LocalRotation: {x: -0, y: -0, z: 0.9999887, w: -0.0047614696}
-  m_LocalPosition: {x: 1310, y: 720, z: -9.347414}
+  m_LocalPosition: {x: 1161, y: 719, z: -258}
   m_LocalScale: {x: 42.55296, y: 42.55296, z: 42.55296}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1456,7 +1456,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1259225841}
   - component: {fileID: 1259225840}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1523,7 +1523,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1259225839}
   m_LocalRotation: {x: -0, y: -0, z: 0.999997, w: 0.0024549793}
-  m_LocalPosition: {x: 185, y: 223, z: -27.2}
+  m_LocalPosition: {x: 185, y: 223, z: -187}
   m_LocalScale: {x: 23.06486, y: 23.06486, z: 23.06486}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1540,7 +1540,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1276645374}
   - component: {fileID: 1276645373}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Rock (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1607,7 +1607,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1276645372}
   m_LocalRotation: {x: -0, y: -0, z: 0.47521597, w: 0.8798692}
-  m_LocalPosition: {x: 422, y: 45, z: -9.347414}
+  m_LocalPosition: {x: 422, y: 45, z: -70}
   m_LocalScale: {x: 42.55296, y: 42.55296, z: 42.55296}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1693,7 +1693,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1336257416}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 732, y: 319.05, z: -6.587537}
+  m_LocalPosition: {x: 732, y: 319.05, z: 77}
   m_LocalScale: {x: 39.608364, y: 39.608364, z: 39.608364}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1710,7 +1710,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1355716081}
   - component: {fileID: 1355716082}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Eye2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1794,7 +1794,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1405567788}
   - component: {fileID: 1405567789}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Eye
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1856,7 +1856,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: -57857938, guid: bd34462528f37264fb426023bbd54e8d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1958,7 +1958,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1618190367}
   - component: {fileID: 1618190366}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Rock
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2025,7 +2025,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1618190365}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 619, y: 223, z: -9.347414}
+  m_LocalPosition: {x: 554, y: 244, z: -70}
   m_LocalScale: {x: 42.55296, y: 42.55296, z: 42.55296}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2070,13 +2070,13 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.75534, g: 0.7624352, b: 0.7735849, a: 0}
+  m_BackGroundColor: {r: 0.8705883, g: 0.882353, b: 0.89019614, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
   m_SensorSize: {x: 36, y: 24}
   m_LensShift: {x: 0, y: 0}
-  m_FocalLength: 50
+  m_FocalLength: 24.574188
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
@@ -2085,13 +2085,13 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 60
+  field of view: 53.07062
   orthographic: 1
-  orthographic size: 5
-  m_Depth: -1
+  orthographic size: 366.32114
+  m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 2147483647
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
@@ -2111,8 +2111,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1625750146}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 646, y: 366, z: -914}
+  m_LocalScale: {x: 4.8203487, y: 4.8203487, z: 4.8203487}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -2262,7 +2262,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1748359359}
   - component: {fileID: 1748359360}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Eye
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2346,7 +2346,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1922559509}
   - component: {fileID: 1922559510}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Paper (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2430,7 +2430,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2106955106}
   - component: {fileID: 2106955105}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Rock (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2497,7 +2497,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2106955104}
   m_LocalRotation: {x: -0, y: -0, z: 0.00040556933, w: 0.99999994}
-  m_LocalPosition: {x: 1419, y: 44, z: -9.347414}
+  m_LocalPosition: {x: 1246, y: 44, z: -70}
   m_LocalScale: {x: 42.55296, y: 42.55296, z: 42.55296}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2514,7 +2514,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2111583320}
   - component: {fileID: 2111583321}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Paper
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2598,7 +2598,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2122086858}
   - component: {fileID: 2122086857}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Boss
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2665,7 +2665,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2122086856}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1100, y: 345, z: -31.4}
+  m_LocalPosition: {x: 1064, y: 403, z: -92.05259}
   m_LocalScale: {x: 574.4919, y: 574.4919, z: 574.4919}
   m_ConstrainProportionsScale: 0
   m_Children:
