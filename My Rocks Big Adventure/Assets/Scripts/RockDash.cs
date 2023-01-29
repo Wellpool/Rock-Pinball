@@ -13,7 +13,7 @@ Rigidbody2D rb2d;
 public Camera cam;
 public Text cdText;
 
-bool onCooldown = false;
+public bool onCooldown = false;
 int dashTimer = 0;
 public int seconds = 12; //We can set how many seconds the cooldown is using this variable.
 public float moveSpeed;

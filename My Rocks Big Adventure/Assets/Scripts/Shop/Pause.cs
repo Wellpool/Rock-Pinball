@@ -41,6 +41,7 @@ public class Pause : MonoBehaviour
     {
         pauseMenuUi.SetActive(false);
         shopeMenuUi.SetActive(false);
+        shopeMenuUi.SetActive(false);
         Time.timeScale = 1f;
         GameIsPaused = false;
     }
@@ -65,5 +66,11 @@ public class Pause : MonoBehaviour
     {
         pauseMenuUi.SetActive(true);
         shopeMenuUi.SetActive(false);
+    }
+    
+    //Exit game from pause menu
+    public void ExitGameFromPause()
+    {
+        Application.Quit();
     }
 }
