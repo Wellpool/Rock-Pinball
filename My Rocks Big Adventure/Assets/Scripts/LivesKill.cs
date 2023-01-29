@@ -17,6 +17,7 @@ public GameObject Spawn;
 public GameObject nameField;
 
 public UnityEvent respawnSound;
+public UnityEvent gameOverBGM;
 
 
 //Setting the initial values of the texts.
@@ -40,6 +41,7 @@ private void Update()
          Time.timeScale = 0;
          loseText.text = "Game Over!";
          nameField.SetActive(true);
+         gameOverBGM.Invoke();
       }
       else{
          Lives--;

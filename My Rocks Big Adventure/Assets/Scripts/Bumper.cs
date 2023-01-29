@@ -1,13 +1,17 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class Bumper : MonoBehaviour
 {
     public int addPoint = 10;
     public Score score;
 
-    void Awake(){
+    public UnityEvent bumperSound;
+
+    void Awake()
+    {
         score = GameObject.Find("UI").GetComponent<Score>();
     }
     
@@ -18,6 +22,7 @@ public class Bumper : MonoBehaviour
         if (collision.gameObject.CompareTag("Player"))
         {
             score.score += addPoint;
+            bumperSound.Invoke();
         }
     }
 }

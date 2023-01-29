@@ -42,10 +42,10 @@ public class Shop : MonoBehaviour
           //  maxedCdTimer = true;
         
           //cheat test, remove when finished.
-        if (Input.GetKeyDown(KeyCode.Space))
+        /*if (Input.GetKeyDown(KeyCode.Space))
         {
             gameScore.score += 5000;
-        }
+        }*/
     }
     
     //This to buy lives in the shop.
